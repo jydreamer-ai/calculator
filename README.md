@@ -1,2 +1,2 @@
 It is a simple calculator website.
-LInk: https://jydreamer-ai.github.io/calculator
+Link: https://jydreamer-ai.github.io/calculator
