@@ -12,11 +12,11 @@ body{
     font-family: Arial, sans-serif;
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
-    max-width: 300px;
+    max-width: 500px;
     overflow: hidden;
 }
 #display{
-    width: 100%;
+    width: 100vw;
     padding: 20px;
     font-size: 5rem;
     text-align: left;
@@ -30,7 +30,7 @@ body{
     padding: 25px;
 }
 button{
-    width: 100px;
+    width: 10vw;
     height: 100px;
     border-radius: 50px;
     border: none;
