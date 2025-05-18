@@ -37,9 +37,9 @@ body {
 }
 
 button {
-    width: 90%; /* Full width of grid cell */
-    height: 80px; /* Adjusted height */
-    border-radius: 15px;
+    width: 80px; /* Set width */
+    height: 80px; /* Set height to match width */
+    border-radius: 50%; /* Make buttons circular */
     border: none;
     background-color: hsl(0, 0%, 30%);
     color: white;
@@ -76,11 +76,12 @@ button:active {
     
     button {
         height: 60px; /* Smaller buttons on mobile */
-        font-size: 2rem; /* Smaller text */
+        width: 60px; /* Adjusted width */
+        font-size: 1.8rem; /* Smaller text */
     }
 
     #keys {
         gap: 2px; /* Further reduce gap between buttons */
-        padding: 15px; /* Further reduce padding */
+        padding: 10px; /* Further reduce padding */
     }
 }
