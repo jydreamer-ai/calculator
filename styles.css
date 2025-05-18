@@ -37,7 +37,7 @@ body {
 }
 
 button {
-    width: 100%; /* Full width of grid cell */
+    width: 90%; /* Full width of grid cell */
     height: 80px; /* Adjusted height */
     border-radius: 15px;
     border: none;
