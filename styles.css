@@ -46,6 +46,9 @@ button {
     font-size: 2.5rem; /* Adjusted font size */
     font-weight: bold;
     cursor: pointer;
+    display: flex; /* Center text */
+    align-items: center; /* Center text vertically */
+    justify-content: center; /* Center text horizontally */
 }
 
 button:hover {
