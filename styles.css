@@ -81,6 +81,6 @@ button:active {
 
     #keys {
         gap: 2px; /* Further reduce gap between buttons */
-        padding: 10px; /* Further reduce padding */
+        padding: 5px; /* Further reduce padding */
     }
 }
