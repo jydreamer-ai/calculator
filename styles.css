@@ -1,21 +1,26 @@
-body{
+* {
+    box-sizing: border-box; /* Ensure padding and borders are included in width/height */
+}
+
+body {
     margin: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     background-color: hsl(0, 0%, 95%);
-
 }
+
 #calculator {
     font-family: Arial, sans-serif;
     background-color: hsl(0, 0%, 15%);
     border-radius: 15px;
-    width: 90%; /* Adjusted for mobile */
-    max-width: 500px; /* Still limits on larger screens */
+    width: 100%; /* Full width */
+    max-width: 500px; /* Limit on larger screens */
     overflow: hidden;
 }
-#display{
+
+#display {
     width: 100%;
     padding: 20px;
     font-size: 5rem;
@@ -23,13 +28,15 @@ body{
     border: none;
     background-color: hsl(0, 0%, 29%);
 }
-#keys{
-    display:grid;
+
+#keys {
+    display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
     padding: 25px;
 }
-button{
+
+button {
     width: 100px;
     height: 100px;
     border-radius: 50px;
@@ -40,25 +47,33 @@ button{
     font-weight: bold;
     cursor: pointer;
 }
-button:hover{
+
+button:hover {
     background-color: hsl(0, 0%, 40%);
 }
-button:active{
+
+button:active {
     background-color: hsl(0, 0%, 50%);
 }
-.operator-btn{
+
+.operator-btn {
     background-color: hsl(36, 100%, 50%);
 }
-.operator-btn:hover{
+
+.operator-btn:hover {
     background-color: hsl(36, 100%, 62%);
 }
-.operator-btn:active{
+
+.operator-btn:active {
     background-color: hsl(36, 96%, 72%);
 }
+
+/* Media query for small screens */
 @media (max-width: 600px) {
     #display {
         font-size: 4rem; /* Smaller font on mobile */
     }
+    
     button {
         width: 80px; /* Smaller buttons on mobile */
         height: 80px;
